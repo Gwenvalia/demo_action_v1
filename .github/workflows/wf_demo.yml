@@ -10,3 +10,5 @@ jobs:
         run: ls /
       - name: Fin du premier job
         run: echo "That's all folks!"
+
+# workflow_dispatch indique que le workflow pourra être déclanché manuellement depuis GitHub
